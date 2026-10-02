@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+  <title>COZY PETALS by Tanu | Handcrafted Flowers & Custom Gifts</title>
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- STICKY HEADER -->
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="#hero" class="brand-monogram" aria-label="Cozy Petals Home">
+        <svg viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="22" cy="22" r="21" stroke="#d4af37" stroke-width="1.2" stroke-dasharray="2 2" opacity="0.6"/>
+          <path d="M22 8C20 13 24 16 22 22C20 16 24 13 22 8Z" fill="#e8c2cb" opacity="0.8"/>
+          <path d="M22 36C20 31 24 28 22 22C20 28 24 31 22 36Z" fill="#e8c2cb" opacity="0.8"/>
+          <path d="M8 22C13 20 16 24 22 22C16 20 13 24 8 22Z" fill="#cfb3c9" opacity="0.8"/>
+          <path d="M36 22C31 20 28 24 22 22C28 20 31 24 36 22Z" fill="#cfb3c9" opacity="0.8"/>
+          <text x="22" y="27" text-anchor="middle" font-family="'Cormorant Garamond', serif" font-weight="700" font-size="16" fill="#4a152d" letter-spacing="1">CP</text>
+        </svg>
+      </a>
+
+      <div class="brand-title-wrap">
+        <span class="brand-title">COZY PETALS</span>
+        <span class="brand-sub">BY TANU &bull; KHUNTI</span>
+      </div>
+
+      <button class="nav-toggle" id="menuBtn" aria-label="Open Navigation Menu">
+        <i class="fa-solid fa-bars-staggered"></i>
+      </button>
+    </div>
+  </header>
+
+  <!-- MOBILE NAV DRAWER -->
+  <div class="nav-drawer" id="navDrawer">
+    <div class="nav-drawer-header">
+      <div class="brand-title-wrap">
+        <span class="brand-title">COZY PETALS</span>
+        <span class="brand-sub">Handmade in Jharkhand</span>
+      </div>
+      <button class="nav-close" id="menuCloseBtn" aria-label="Close Navigation Menu">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+    </div>
+    <nav class="nav-links">
+      <a href="#hero" class="nav-link"><i class="fa-regular fa-compass"></i> Home</a>
+      <a href="#about" class="nav-link"><i class="fa-regular fa-heart"></i> Our Story</a>
+      <a href="#products" class="nav-link"><i class="fa-solid fa-spa"></i> Collection</a>
+      <a href="#moments" class="nav-link"><i class="fa-regular fa-calendar-check"></i> Moments &amp; Gifts</a>
+      <a href="#custom" class="nav-link"><i class="fa-solid fa-wand-magic-sparkles"></i> Custom Studio</a>
+      <a href="#keychains" class="nav-link"><i class="fa-solid fa-key"></i> Keychains</a>
+      <a href="#gallery" class="nav-link"><i class="fa-brands fa-instagram"></i> Lookbook</a>
+      <a href="#contact" class="nav-link"><i class="fa-regular fa-comment-dots"></i> Contact</a>
+    </nav>
+    <div class="nav-drawer-footer">
+      <a href="javascript:void(0)" onclick="openWhatsApp('Hi Tanu! I am browsing the Cozy Petals website and would love to place an inquiry.')" class="btn btn-primary btn-block">
+        <i class="fa-brands fa-whatsapp"></i> Chat on WhatsApp
+      </a>
+      <p class="drawer-insta"><i class="fa-brands fa-instagram"></i> @cozypetalsbytanu</p>
+    </div>
+  </div>
+  <div class="backdrop" id="backdrop"></div>
+
+  <!-- MAIN CONTENT -->
+  <main>
+    <!-- HERO SECTION -->
+    <section class="hero-section" id="hero">
+      <div class="container hero-content">
+        <div class="badge-pill">
+          <i class="fa-solid fa-sparkles"></i> Chenille Pipe-Cleaner Florals
+        </div>
+        <h1 class="hero-title">Flowers That <br><em>Never Fade.</em></h1>
+        <p class="hero-subtitle">Handcrafted blooms, made with love and designed to last.</p>
+        <p class="hero-desc">Delicate handmade bouquets, fluffy pipe-cleaner stems & personalized keepsake gifts from Khunti, Jharkhand.</p>
+        
+        <div class="hero-cta-group">
+          <a href="#products" class="btn btn-primary">
+            Explore Collection <i class="fa-solid fa-arrow-right"></i>
+          </a>
+          <a href="#custom" class="btn btn-outline">
+            Custom Order <i class="fa-solid fa-wand-magic-sparkles"></i>
+          </a>
+        </div>
+
+        <div class="hero-image-wrapper">
+          <div class="hero-image-card">
+            <img src="https://images.pexels.com/photos/38363696/pexels-photo-38363696.jpeg?cs=srgb&dl=pexels-omar-photographer-686423191-38363696.jpg&fm=jpg" alt="Close-up of a pink pipe cleaner flower being handmade on a table" class="hero-img" loading="eager">
+            <div class="hero-photo-tag">
+              <i class="fa-solid fa-scissors"></i> 100% Handcrafted
+            </div>
+          </div>
+          <div class="hero-floating-badge">
+            <span class="accent-script">Everlasting Beauty</span>
+            <span class="badge-text">Never withers, never wilts</span>
+          </div>
+        </div>
+
+        <div class="hero-stats">
+          <div class="stat-item">
+            <span class="stat-number">100%</span>
+            <span class="stat-label">Handmade</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <span class="stat-number">Custom</span>
+            <span class="stat-label">Color Themes</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <span class="stat-number">All-India</span>
+            <span class="stat-label">Delivery Support</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- BRAND STORY / ABOUT -->
+    <section class="about-section" id="about">
+      <div class="container">
+        <div class="section-badge">Our Story</div>
+        <h2 class="section-title">Made by Hand.<br><em>Made With Love.</em></h2>
+        <div class="about-card">
+          <p class="about-lead">
+            At Cozy Petals, we believe flowers should preserve memories forever, not just for a few days.
+          </p>
+          <p class="about-body">
+            Each individual petal, bud, and stem is shaped with precision using plush chenille pipe-cleaners, artistic wrapping, and endless patience by Tanu in Khunti, Jharkhand. Turning soft craft wire into everlasting keepsakes that bring warmth to every desk, bedroom, and celebration.
+          </p>
+          <div class="maker-signature">
+            <span class="sig-script">Tanu</span>
+            <span class="sig-title">Founder & Artisan, Cozy Petals</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRODUCT COLLECTION -->
+    <section class="products-section" id="products">
+      <div class="container">
+        <div class="section-badge">Boutique Catalogue</div>
+        <h2 class="section-title">Handcrafted Creations</h2>
+        <p class="section-sub">Every piece is customizable by color, floral count, and wrapping style.</p>
+
+        <!-- Category Tabs -->
+        <div class="filter-pills" id="categoryFilter">
+          <button class="filter-btn active" data-cat="all">All</button>
+          <button class="filter-btn" data-cat="bouquets">Bouquets</button>
+          <button class="filter-btn" data-cat="flowers">Pipe Cleaner</button>
+          <button class="filter-btn" data-cat="keychains">Keychains</button>
+          <button class="filter-btn" data-cat="custom">Custom Designs</button>
+        </div>
+
+        <!-- Products Grid -->
+        <div class="product-grid" id="productContainer">
+          
+          <!-- Product 1 -->
+          <article class="product-card" data-category="bouquets">
+            <div class="product-img-wrap">
+              <img src="https://images.pexels.com/photos/35468616/pexels-photo-35468616.jpeg?cs=srgb&dl=pexels-andy-lee-222330306-35468616.jpg&fm=jpg" alt="Colorful pipe cleaner flower bouquet arranged in a decorative box" loading="lazy">
+              <span class="prod-badge">Customizable</span>
+            </div>
+            <div class="product-info">
+              <span class="prod-category">Pipe Cleaner Flower Bouquets</span>
+              <h3 class="product-name">Pipe Cleaner Rose Bouquet</h3>
+              <p class="product-desc">Plush chenille roses paired with soft lavender buds, tied with double satin ribbons and Korean waterproof wrapping paper.</p>
+              <div class="product-actions">
+                <button class="btn btn-card" onclick="openOrderModal('Blush Blossom Bouquet')">
+                  <i class="fa-brands fa-whatsapp"></i> Order on WhatsApp
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Product 2 -->
+          <article class="product-card" data-category="flowers">
+            <div class="product-img-wrap">
+              <img src="https://images.pexels.com/photos/8754783/pexels-photo-8754783.jpeg?cs=srgb&dl=pexels-tamanna-rumee-52377920-8754783.jpg&fm=jpg" alt="Handmade colorful paper flower bouquet with bright petals and stems" loading="lazy">
+              <span class="prod-badge">Signature Bloom</span>
+            </div>
+            <div class="product-info">
+              <span class="prod-category">Chenille Stem Flowers</span>
+              <h3 class="product-name">Golden Sunshine Stems</h3>
+              <p class="product-desc">Fluffy golden sunflowers handcrafted with chenille stems, vibrant leaves, and flexible stems perfect for mini desktop vases.</p>
+              <div class="product-actions">
+                <button class="btn btn-card" onclick="openOrderModal('Golden Sunshine Stems')">
+                  <i class="fa-brands fa-whatsapp"></i> Order on WhatsApp
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Product 3 -->
+          <article class="product-card" data-category="keychains">
+            <div class="product-img-wrap">
+              <img src="https://images.pexels.com/photos/35468616/pexels-photo-35468616.jpeg?cs=srgb&dl=pexels-andy-lee-222330306-35468616.jpg&fm=jpg" alt="Colorful pipe cleaner flower bouquet arranged in a decorative box" loading="lazy">
+              <span class="prod-badge">Best For Gifting</span>
+            </div>
+            <div class="product-info">
+              <span class="prod-category">Pipe Cleaner Keychains</span>
+              <h3 class="product-name">Pipe Cleaner Tulip Charm</h3>
+              <p class="product-desc">Pocket-sized handmade tulip bell keychain with golden alloy ring and mini woven leaf. The sweetest everyday bag companion.</p>
+              <div class="product-actions">
+                <button class="btn btn-card" onclick="openOrderModal('Petite Tulip Charm Keychain')">
+                  <i class="fa-brands fa-whatsapp"></i> Order on WhatsApp
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Product 4 -->
+          <article class="product-card" data-category="custom">
+            <div class="product-img-wrap">
+              <img src="https://images.pexels.com/photos/32257698/pexels-photo-32257698.jpeg?cs=srgb&dl=pexels-gabriel-posadas-24301964-32257698.jpg&fm=jpg" alt="Custom handmade flower bouquet with heart accents and soft romantic colors" loading="lazy">
+              <span class="prod-badge">Made to Order</span>
+            </div>
+            <div class="product-info">
+              <span class="prod-category">Custom Handmade Bouquets</span>
+              <h3 class="product-name">Pastel Dream Keepsake</h3>
+              <p class="product-desc">Tailor-made arrangement featuring chenille daisies, lilies, and custom handwritten note tags designed for special celebrations.</p>
+              <div class="product-actions">
+                <button class="btn btn-card" onclick="openOrderModal('Pastel Dream Keepsake Bouquet')">
+                  <i class="fa-brands fa-whatsapp"></i> Order on WhatsApp
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Product 5 -->
+          <article class="product-card" data-category="bouquets">
+            <div class="product-img-wrap">
+              <img src="https://images.pexels.com/photos/8754752/pexels-photo-8754752.jpeg?cs=srgb&dl=pexels-tamanna-rumee-52377920-8754752.jpg&fm=jpg" alt="Bouquet of bright handmade artificial flowers styled in a natural garden setting" loading="lazy">
+              <span class="prod-badge">Customizable</span>
+            </div>
+            <div class="product-info">
+              <span class="prod-category">Handmade Flower Bouquets</span>
+              <h3 class="product-name">Lavender Mist Bouquet</h3>
+              <p class="product-desc">Soft muted lavender and dusty rose pipe-cleaner blooms with delicate handmade filler buds and textured ivory paper.</p>
+              <div class="product-actions">
+                <button class="btn btn-card" onclick="openOrderModal('Lavender Mist Bouquet')">
+                  <i class="fa-brands fa-whatsapp"></i> Order on WhatsApp
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Product 6 -->
+          <article class="product-card" data-category="keychains">
+            <div class="product-img-wrap">
+              <img src="https://images.pexels.com/photos/19558765/pexels-photo-19558765.jpeg?cs=srgb&dl=pexels-muhammad-haris-854241966-19558765.jpg&fm=jpg" alt="Handmade crochet floral arrangement in soft colorful vases" loading="lazy">
+              <span class="prod-badge">Bestseller</span>
+            </div>
+            <div class="product-info">
+              <span class="prod-category">Pipe Cleaner Keychains</span>
+              <h3 class="product-name">Sunny Daisy Bag Charm</h3>
+              <p class="product-desc">Bright and cheerful handmade daisy charm with sturdy clasp and soft petals. Durable, lightweight, and vibrant.</p>
+              <div class="product-actions">
+                <button class="btn btn-card" onclick="openOrderModal('Sunny Daisy Bag Charm')">
+                  <i class="fa-brands fa-whatsapp"></i> Order on WhatsApp
+                </button>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURED / MOMENTS HORIZONTAL CAROUSEL -->
+    <section class="moments-section" id="moments">
+      <div class="container">
+        <div class="section-badge">Curated Occasions</div>
+        <h2 class="section-title">Made For Your Moments</h2>
+        <p class="section-sub">Swipe across to explore arrangements crafted for heartfelt milestones.</p>
+      </div>
+
+      <div class="carousel-track-wrapper">
+        <div class="carousel-track" id="momentCarousel">
+          
+          <div class="moment-card">
+            <div class="moment-img" style="background-image: url('https://images.pexels.com/photos/35468616/pexels-photo-35468616.jpeg?cs=srgb&dl=pexels-andy-lee-222330306-35468616.jpg&fm=jpg');">
+              <span class="moment-tag">Festive & Joyful</span>
+            </div>
+            <div class="moment-meta">
+              <h4>Birthday Gifts</h4>
+              <p>Vibrant everlasting bouquets customized with their favorite aesthetic colors.</p>
+              <button onclick="openWhatsApp('Hi Tanu! I want to order a Birthday Gift bouquet from Cozy Petals.')" class="btn-text">Explore Birthday Styles <i class="fa-solid fa-angle-right"></i></button>
+            </div>
+          </div>
+
+          <div class="moment-card">
+            <div class="moment-img" style="background-image: url('https://images.pexels.com/photos/32257698/pexels-photo-32257698.jpeg?cs=srgb&dl=pexels-gabriel-posadas-24301964-32257698.jpg&fm=jpg');">
+              <span class="moment-tag">Romantic Forever</span>
+            </div>
+            <div class="moment-meta">
+              <h4>Anniversary Gifts</h4>
+              <p>Romantic deep plum and blush velvet-feel blooms that stay forever as a sweet memory.</p>
+              <button onclick="openWhatsApp('Hi Tanu! I want to order an Anniversary Floral Gift from Cozy Petals.')" class="btn-text">Explore Anniversary Styles <i class="fa-solid fa-angle-right"></i></button>
+            </div>
+          </div>
+
+          <div class="moment-card">
+            <div class="moment-img" style="background-image: url('https://images.pexels.com/photos/8754783/pexels-photo-8754783.jpeg?cs=srgb&dl=pexels-tamanna-rumee-52377920-8754783.jpg&fm=jpg');">
+              <span class="moment-tag">Warm & Cheerful</span>
+            </div>
+            <div class="moment-meta">
+              <h4>Friendship Gifts</h4>
+              <p>Cute sunflower charms and pastel flower bundles to remind best friends they are cherished.</p>
+              <button onclick="openWhatsApp('Hi Tanu! I want to gift something handmade to my best friend.')" class="btn-text">Explore Bestie Gifts <i class="fa-solid fa-angle-right"></i></button>
+            </div>
+          </div>
+
+          <div class="moment-card">
+            <div class="moment-img" style="background-image: url('https://images.pexels.com/photos/19558765/pexels-photo-19558765.jpeg?cs=srgb&dl=pexels-muhammad-haris-854241966-19558765.jpg&fm=jpg');">
+              <span class="moment-tag">Bespoke</span>
+            </div>
+            <div class="moment-meta">
+              <h4>Special Occasions</h4>
+              <p>Graduations, farewells, housewarmings, or heartfelt apologies with personalized accents.</p>
+              <button onclick="openWhatsApp('Hi Tanu! I want to plan a custom design for a special occasion.')" class="btn-text">Plan Custom Occasion <i class="fa-solid fa-angle-right"></i></button>
+            </div>
+          </div>
+
+        </div>
+        <div class="carousel-hint"><i class="fa-solid fa-hand-pointer"></i> Swipe horizontally to view more</div>
+      </div>
+    </section>
+
+    <!-- CUSTOM DESIGN SECTION (INTERACTIVE BUILDER) -->
+    <section class="custom-section" id="custom">
+      <div class="container">
+        <div class="custom-card">
+          <div class="section-badge">Bespoke Atelier</div>
+          <h2 class="section-title">Your Idea.<br><em>Our Handmade Magic.</em></h2>
+          <p class="custom-desc">
+            Have something special in mind? Cozy Petals creates custom handmade flowers and gift designs made around your exact idea, colors, and budget.
+          </p>
+
+          <div class="custom-examples">
+            <div class="example-item">
+              <i class="fa-solid fa-palette"></i>
+              <strong>Your Palette</strong>
+              <span>Blush, lavender, cream, or custom hues</span>
+            </div>
+            <div class="example-item">
+              <i class="fa-solid fa-seedling"></i>
+              <strong>Flower Mix</strong>
+              <span>Roses, tulips, daisies, or lilies</span>
+            </div>
+            <div class="example-item">
+              <i class="fa-solid fa-ribbon"></i>
+              <strong>Finishing</strong>
+              <span>Custom wrapping paper, tags & ribbons</span>
+            </div>
+          </div>
+
+          <!-- Interactive Custom Inquiry Configurator -->
+          <div class="custom-builder">
+            <span class="builder-title"><i class="fa-solid fa-sliders"></i> Quick Custom Design Inquiry</span>
+            <div class="builder-field">
+              <label for="customFlowerSelect">Desired Flower Style:</label>
+              <select id="customFlowerSelect">
+                <option value="Roses Bouquet">Classic Chenille Roses</option>
+                <option value="Sunflower Mix">Bright Sunflowers & Daisies</option>
+                <option value="Tulip Medley">Graceful Pastel Tulips</option>
+                <option value="Flower Keychain Charm">Bag Keychain / Small Token</option>
+                <option value="Surprise Artisan Mix">Let Tanu Surprise Me!</option>
+              </select>
+            </div>
+
+            <div class="builder-field">
+              <label for="customColorSelect">Color Theme:</label>
+              <select id="customColorSelect">
+                <option value="Soft Blush & Warm Ivory">Soft Blush & Warm Ivory</option>
+                <option value="Muted Lavender & Plum">Muted Lavender & Deep Plum</option>
+                <option value="Pastel Peach & Cream">Pastel Peach & Cream</option>
+                <option value="Sunny Yellow & Sage Green">Sunny Yellow & Sage Green</option>
+                <option value="Custom Combo">Other / I will share sample photo</option>
+              </select>
+            </div>
+
+            <button class="btn btn-primary btn-block" onclick="sendCustomBuilderWhatsApp()">
+              <i class="fa-brands fa-whatsapp"></i> Request a Custom Design
+            </button>
+            <p class="builder-note">Opens WhatsApp with your pre-selected design details ready to send.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- KEYCHAINS SECTION -->
+    <section class="keychains-section" id="keychains">
+      <div class="container">
+        <div class="section-badge">Miniature Collection</div>
+        <h2 class="section-title">Little Gifts,<br><em>Big Smiles.</em></h2>
+        <p class="section-sub">Perfect for gifting, collecting, or adding a personal handmade touch to your bags, keys, and journals.</p>
+
+        <div class="keychain-grid">
+          <div class="keychain-card">
+            <img src="https://images.pexels.com/photos/35468616/pexels-photo-35468616.jpeg?cs=srgb&dl=pexels-andy-lee-222330306-35468616.jpg&fm=jpg" alt="Colorful handmade pipe cleaner flower bouquet detail" loading="lazy">
+            <div class="keychain-info">
+              <h4>Tulip Bell Charm</h4>
+              <p>Soft plush chenille with gold hardware. Won't bend out of shape.</p>
+            </div>
+          </div>
+          <div class="keychain-card">
+            <img src="https://images.pexels.com/photos/38363696/pexels-photo-38363696.jpeg?cs=srgb&dl=pexels-omar-photographer-686423191-38363696.jpg&fm=jpg" alt="Pipe cleaner flower making process close-up in pastel pink" loading="lazy">
+            <div class="keychain-info">
+              <h4>Daisy Sunburst</h4>
+              <p>Cheery mini bloom with reinforced core wire and protective finish.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="text-center" style="margin-top: 1.5rem;">
+          <a href="javascript:void(0)" onclick="openWhatsApp('Hi Tanu! I would like to ask about available handmade flower keychains and prices.')" class="btn btn-secondary">
+            <i class="fa-solid fa-key"></i> Ask About Keychains
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- WHY COZY PETALS -->
+    <section class="why-section">
+      <div class="container">
+        <div class="section-badge">The Cozy Promise</div>
+        <h2 class="section-title">Why Cozy Petals?</h2>
+
+        <div class="features-grid">
+          <div class="feature-item">
+            <div class="feature-icon">
+              <i class="fa-solid fa-hands-holding-child"></i>
+            </div>
+            <h3>HANDMADE</h3>
+            <p>Every single petal and leaf is carefully handcrafted with meticulous love and artistic care.</p>
+          </div>
+
+          <div class="feature-item">
+            <div class="feature-icon">
+              <i class="fa-regular fa-clock"></i>
+            </div>
+            <h3>LONG LASTING</h3>
+            <p>Flowers designed to stay beautiful for years without fading, wilting, or needing water.</p>
+          </div>
+
+          <div class="feature-item">
+            <div class="feature-icon">
+              <i class="fa-solid fa-wand-magic"></i>
+            </div>
+            <h3>CUSTOM DESIGNS</h3>
+            <p>Personalized floral creations crafted according to your preferred colors and vision.</p>
+          </div>
+
+          <div class="feature-item">
+            <div class="feature-icon">
+              <i class="fa-solid fa-gift"></i>
+            </div>
+            <h3>PERFECT FOR GIFTING</h3>
+            <p>Thoughtful handmade gifts for birthdays, anniversaries, and unforgettable moments.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- INSTAGRAM GALLERY -->
+    <section class="gallery-section" id="gallery">
+      <div class="container">
+        <div class="section-badge">Instagram Lookbook</div>
+        <h2 class="section-title">From Our Studio</h2>
+        <p class="section-sub">Follow our latest handmade creations, behind-the-scenes, and customer drops.</p>
+
+        <div class="gallery-grid">
+          <div class="gallery-item">
+            <img src="https://images.pexels.com/photos/38363696/pexels-photo-38363696.jpeg?cs=srgb&dl=pexels-omar-photographer-686423191-38363696.jpg&fm=jpg" alt="Pipe cleaner flower craft close-up in warm pink and handmade style" loading="lazy">
+            <span class="gallery-overlay"><i class="fa-brands fa-instagram"></i></span>
+          </div>
+          <div class="gallery-item">
+            <img src="https://images.pexels.com/photos/35468616/pexels-photo-35468616.jpeg?cs=srgb&dl=pexels-andy-lee-222330306-35468616.jpg&fm=jpg" alt="Handmade pipe cleaner flower bouquet in decorative arrangement" loading="lazy">
+            <span class="gallery-overlay"><i class="fa-brands fa-instagram"></i></span>
+          </div>
+          <div class="gallery-item">
+            <img src="https://images.pexels.com/photos/35468616/pexels-photo-35468616.jpeg?cs=srgb&dl=pexels-andy-lee-222330306-35468616.jpg&fm=jpg" alt="Handmade pipe cleaner flower bouquet in warm craft styling" loading="lazy">
+            <span class="gallery-overlay"><i class="fa-brands fa-instagram"></i></span>
+          </div>
+          <div class="gallery-item">
+            <img src="https://images.pexels.com/photos/32257698/pexels-photo-32257698.jpeg?cs=srgb&dl=pexels-gabriel-posadas-24301964-32257698.jpg&fm=jpg" alt="Custom handmade flower bouquet with heart decorations in pastel tones" loading="lazy">
+            <span class="gallery-overlay"><i class="fa-brands fa-instagram"></i></span>
+          </div>
+          <div class="gallery-item">
+            <img src="https://images.pexels.com/photos/8754752/pexels-photo-8754752.jpeg?cs=srgb&dl=pexels-tamanna-rumee-52377920-8754752.jpg&fm=jpg" alt="Handmade flower bouquet in soft pastel tones for gifting" loading="lazy">
+            <span class="gallery-overlay"><i class="fa-brands fa-instagram"></i></span>
+          </div>
+          <div class="gallery-item">
+            <img src="https://images.pexels.com/photos/19558765/pexels-photo-19558765.jpeg?cs=srgb&dl=pexels-muhammad-haris-854241966-19558765.jpg&fm=jpg" alt="Colorful handcrafted crochet flower arrangement with warm craft feel" loading="lazy">
+            <span class="gallery-overlay"><i class="fa-brands fa-instagram"></i></span>
+          </div>
+        </div>
+
+        <div class="text-center" style="margin-top: 1.75rem;">
+          <p class="insta-callout">More creations on Instagram</p>
+          <a href="https://www.instagram.com/cozypetalsbytanu/" target="_blank" rel="noopener noreferrer" class="btn btn-insta">
+            <i class="fa-brands fa-instagram"></i> @cozypetalsbytanu
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ORDER CONVERSION SECTION -->
+    <section class="order-section" id="contact">
+      <div class="container">
+        <div class="order-box">
+          <span class="accent-script" style="font-size: 2.2rem; color: #d4af37;">Handcrafted Just For You</span>
+          <h2 class="order-title">Want Something Handmade?</h2>
+          <p class="order-text">
+            Tell us what you have in mind and we'll help create something truly special. Share reference photos or choose your favorite color scheme.
+          </p>
+
+          <div class="order-cta-stack">
+            <a href="javascript:void(0)" onclick="openWhatsApp('Hi Cozy Petals! I want to place an order for handmade flowers.')" class="btn btn-whatsapp-large">
+              <i class="fa-brands fa-whatsapp"></i> Order on WhatsApp
+            </a>
+            <a href="https://www.instagram.com/cozypetalsbytanu/" target="_blank" rel="noopener noreferrer" class="btn btn-outline-light">
+              <i class="fa-brands fa-instagram"></i> DM on Instagram
+            </a>
+          </div>
+
+          <div class="location-badge">
+            <i class="fa-solid fa-location-dot"></i> Handcrafted in Khunti, Jharkhand
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <div class="footer-logo">
+        <span class="brand-title">COZY PETALS</span>
+        <span class="footer-by">By Tanu</span>
+      </div>
+
+      <p class="footer-love">Handmade with love &hearts;</p>
+      <p class="footer-loc"><i class="fa-solid fa-map-pin"></i> Khunti, Jharkhand &bull; India</p>
+
+      <div class="footer-social">
+        <a href="https://www.instagram.com/cozypetalsbytanu/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+          <i class="fa-brands fa-instagram"></i> @cozypetalsbytanu
+        </a>
+      </div>
+
+      <nav class="footer-nav">
+        <a href="#hero">Home</a>
+        <a href="#products">Collection</a>
+        <a href="#custom">Custom Designs</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <p class="footer-copy">&copy; <span id="currentYear"></span> Cozy Petals by Tanu. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- STICKY MOBILE BOTTOM ACTION BAR -->
+  <div class="mobile-bottom-bar">
+    <a href="javascript:void(0)" onclick="openWhatsApp('Hi Cozy Petals! I am interested in ordering handmade flowers.')" class="bottom-bar-btn whatsapp">
+      <i class="fa-brands fa-whatsapp"></i> Quick WhatsApp Order
+    </a>
+    <a href="#custom" class="bottom-bar-btn custom">
+      <i class="fa-solid fa-wand-magic-sparkles"></i> Custom Design
+    </a>
+  </div>
+
+  <!-- PRODUCT INQUIRY MODAL -->
+  <div class="modal-wrap" id="orderModal">
+    <div class="modal-card">
+      <button class="modal-close" onclick="closeOrderModal()" aria-label="Close modal">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+      <span class="modal-badge"><i class="fa-solid fa-spa"></i> Direct Artisan Inquiry</span>
+      <h3 id="modalProductName" class="modal-title">Product Name</h3>
+      <p class="modal-desc">Send a direct inquiry for customization options, availability, and color variations.</p>
+      
+      <div class="modal-field">
+        <label for="modalColorPref">Preferred Color Theme:</label>
+        <input type="text" id="modalColorPref" placeholder="e.g. Baby Pink & White, Pastel Lavender">
+      </div>
+
+      <div class="modal-field">
+        <label for="modalNotes">Special Note / Occasion:</label>
+        <textarea id="modalNotes" rows="2" placeholder="e.g. For my sister's birthday with gift wrapping"></textarea>
+      </div>
+
+      <button id="modalSubmitBtn" class="btn btn-primary btn-block">
+        <i class="fa-brands fa-whatsapp"></i> Continue to WhatsApp
+      </button>
+    </div>
+  </div>
+
+  <!-- Script -->
+  <script src="script.js"></script>
+</body>
+</html>
